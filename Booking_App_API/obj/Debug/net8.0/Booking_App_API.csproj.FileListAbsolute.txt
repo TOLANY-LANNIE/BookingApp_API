@@ -46,3 +46,4 @@ C:\Users\adsib\Desktop\Repos\Booking_App_API\Booking_App_API\bin\Debug\net8.0\Su
 C:\Users\adsib\Desktop\Repos\Booking_App_API\Booking_App_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\adsib\Desktop\Repos\Booking_App_API\Booking_App_API\bin\Debug\net8.0\System.Reactive.dll
 C:\Users\adsib\Desktop\Repos\Booking_App_API\Booking_App_API\bin\Debug\net8.0\Websocket.Client.dll
+C:\Users\adsib\Desktop\Repos\Booking_App_API\Booking_App_API\obj\Debug\net8.0\Booking_App_API.sourcelink.json

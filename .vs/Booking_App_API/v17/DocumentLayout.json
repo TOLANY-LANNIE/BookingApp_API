@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\controllers\\conflictscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\controllers\\conflictscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\models\\conflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\models\\conflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\contracts\\conflicts\\conflictresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\contracts\\conflicts\\conflictresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\contracts\\conflicts\\conflictrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\contracts\\conflicts\\conflictrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\contracts\\roles\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\contracts\\roles\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\contracts\\roles\\roleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\contracts\\roles\\roleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|c:\\users\\adsib\\desktop\\repos\\booking_app_api\\booking_app_api\\contracts\\users\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95940FE-3B26-4274-B458-C2D45D21E202}|Booking_App_API\\Booking_App_API.csproj|solutionrelative:booking_app_api\\contracts\\users\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +42,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\User.cs",
               "RelativeDocumentMoniker": "Booking_App_API\\Models\\User.cs",
               "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\User.cs",
               "RelativeToolTip": "Booking_App_API\\Models\\User.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowBUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T20:09:13.98Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ConflictsController.cs",
+              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\ConflictsController.cs",
+              "RelativeDocumentMoniker": "Booking_App_API\\Controllers\\ConflictsController.cs",
+              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\ConflictsController.cs",
+              "RelativeToolTip": "Booking_App_API\\Controllers\\ConflictsController.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAuwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:39:33.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Booking_App_API\\Controllers\\UserController.cs",
@@ -63,72 +81,72 @@
               "RelativeToolTip": "Booking_App_API\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:22:56.113Z",
+              "WhenOpened": "2024-10-20T09:39:25.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConflictsController.cs",
-              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\ConflictsController.cs",
-              "RelativeDocumentMoniker": "Booking_App_API\\Controllers\\ConflictsController.cs",
-              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\ConflictsController.cs",
-              "RelativeToolTip": "Booking_App_API\\Controllers\\ConflictsController.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAmwCcAAAAxAAAA",
+              "DocumentIndex": 0,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Booking_App_API\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Booking_App_API\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAcwG8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:22:27.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConflictResponse.cs",
-              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Conflicts\\ConflictResponse.cs",
-              "RelativeDocumentMoniker": "Booking_App_API\\Contracts\\Conflicts\\ConflictResponse.cs",
-              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Conflicts\\ConflictResponse.cs",
-              "RelativeToolTip": "Booking_App_API\\Contracts\\Conflicts\\ConflictResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:04:20.699Z",
+              "WhenOpened": "2024-10-20T09:39:12.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ConflictRequest.cs",
-              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Conflicts\\ConflictRequest.cs",
-              "RelativeDocumentMoniker": "Booking_App_API\\Contracts\\Conflicts\\ConflictRequest.cs",
-              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Conflicts\\ConflictRequest.cs",
-              "RelativeToolTip": "Booking_App_API\\Contracts\\Conflicts\\ConflictRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Title": "RoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Roles\\RoleRequest.cs",
+              "RelativeDocumentMoniker": "Booking_App_API\\Contracts\\Roles\\RoleRequest.cs",
+              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Roles\\RoleRequest.cs",
+              "RelativeToolTip": "Booking_App_API\\Contracts\\Roles\\RoleRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:04:19.549Z",
+              "WhenOpened": "2024-10-20T09:37:51.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Booking_App_API\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\Booking.cs",
-              "RelativeToolTip": "Booking_App_API\\Models\\Booking.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBUAAAAqAAAA",
+              "DocumentIndex": 5,
+              "Title": "RoleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Roles\\RoleResponse.cs",
+              "RelativeDocumentMoniker": "Booking_App_API\\Contracts\\Roles\\RoleResponse.cs",
+              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Roles\\RoleResponse.cs",
+              "RelativeToolTip": "Booking_App_API\\Contracts\\Roles\\RoleResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:00:17.199Z",
+              "WhenOpened": "2024-10-20T09:35:47.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Conflict.cs",
-              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\Conflict.cs",
-              "RelativeDocumentMoniker": "Booking_App_API\\Models\\Conflict.cs",
-              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\Conflict.cs",
-              "RelativeToolTip": "Booking_App_API\\Models\\Conflict.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowA8AAAAtAAAA",
+              "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "Booking_App_API\\Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Models\\Roles.cs*",
+              "RelativeToolTip": "Booking_App_API\\Models\\Roles.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:00:15.711Z",
+              "WhenOpened": "2024-10-20T09:32:10.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Users\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "Booking_App_API\\Contracts\\Users\\UserLoginRequest.cs",
+              "ToolTip": "C:\\Users\\adsib\\Desktop\\Repos\\Booking_App_API\\Booking_App_API\\Contracts\\Users\\UserLoginRequest.cs",
+              "RelativeToolTip": "Booking_App_API\\Contracts\\Users\\UserLoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:52:04.814Z",
               "EditorCaption": ""
             }
           ]

@@ -9,13 +9,16 @@ namespace Booking_App_API.Models
         [PrimaryKey("id",false)]
         public string Id { get; set; }
 
-        [Column("username")]
-        public string Username { get; set; }
+        [Column("fullname")]
+        public string Fullname { get; set; }
+       
+        [Column("email")]
+        public string Email { get; set; }
 
         [Column("password")]
         public string Password { get; set; }
 
-        [Column("role")]
+        [Column("role_id")]
         public string Role { get; set; }
     }
 }

@@ -5,6 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Booking_App_API.Contracts.Users;
+using Microsoft.AspNetCore.Identity; // For password hashing
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Booking_App_API.Controllers
 {
@@ -13,10 +18,12 @@ namespace Booking_App_API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly Supabase.Client _supabaseClient;
+        private readonly PasswordHasher<User> _passwordHasher;
 
-        public UsersController(Supabase.Client supabaseClient)
+        public UsersController(Supabase.Client supabaseClient, IConfiguration configuration)
         {
             _supabaseClient = supabaseClient;
+            _passwordHasher = new PasswordHasher<User>();
         }
 
         // GET: api/users
@@ -33,7 +40,9 @@ namespace Booking_App_API.Controllers
             var userResponses = response.Models.Select(u => new UserResponse
             {
                 Id = u.Id,
-                Username = u.Username,
+                Fullname = u.Fullname,
+                Email = u.Email,
+                Password = u.Password,
                 Role = u.Role
             }).ToList();
 
@@ -55,7 +64,9 @@ namespace Booking_App_API.Controllers
             var userResponse = new UserResponse
             {
                 Id = user.Id,
-                Username = user.Username,
+                Fullname = user.Fullname,
+                Email = user.Email,
+                Password = user.Password,
                 Role = user.Role
             };
 
@@ -68,7 +79,8 @@ namespace Booking_App_API.Controllers
         {
             var newUser = new User
             {
-                Username = userRequest.Username,
+                Fullname = userRequest.Fullname,
+                Email = userRequest.Email,
                 Password = userRequest.Password, // Remember to hash this in a real application
                 Role = userRequest.Role
             };
@@ -84,7 +96,9 @@ namespace Booking_App_API.Controllers
             var userResponse = new UserResponse
             {
                 Id = createdUser.Id,
-                Username = createdUser.Username,
+                Fullname = createdUser.Fullname,
+                Email= createdUser.Email,
+                Password= createdUser.Password,
                 Role = createdUser.Role
             };
 
@@ -106,7 +120,8 @@ namespace Booking_App_API.Controllers
             var userToUpdate = response.Models.First();
 
             // Update the user details
-            userToUpdate.Username = userRequest.Username;
+            userToUpdate.Fullname = userRequest.Fullname;
+            userToUpdate.Email = userRequest.Email;
             userToUpdate.Password = userRequest.Password; // Ensure hashing in real applications
             userToUpdate.Role = userRequest.Role;
 
@@ -145,6 +160,48 @@ namespace Booking_App_API.Controllers
             }
 
             return NoContent(); // Successfully deleted the user
+        }
+
+
+        // POST: api/users/login
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] UserLoginRequest loginRequest)
+        {
+            // Retrieve the user with the provided email
+            var response = await _supabaseClient.From<User>()
+                .Filter("email", Postgrest.Constants.Operator.Equals, loginRequest.Email)
+                .Get();
+
+            if (response.Models == null || response.Models.Count == 0)
+            {
+                return Unauthorized("Invalid email or password.");
+            }
+
+            var user = response.Models.First();
+
+            // Verify the password - since it's stored in plain text, just compare directly
+            if (user.Password != loginRequest.Password)
+            {
+                return Unauthorized("Invalid email or password.");
+            }
+
+            // If login is successful, create a session for the user
+            HttpContext.Session.SetString("UserId", user.Id);
+            HttpContext.Session.SetString("Username", user.Email);
+            HttpContext.Session.SetString("Username", user.Fullname);
+            HttpContext.Session.SetString("Role", user.Role);
+
+            return Ok(new { Message = "Login successful", Username = user.Email, Role = user.Role });
+        }
+
+
+        // POST: api/users/logout
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            // Clear the user's session
+            HttpContext.Session.Clear();
+            return Ok(new { Message = "Logout successful" });
         }
     }
 }
